@@ -1,0 +1,36 @@
+:root{
+    --primary-color: #3498db;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin: 20px;
+    background-color: gray;
+}
+
+.fa-button{
+    padding: 10px 20px;
+    font-size: 16px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.dark-mode .fa-button{
+    background-color: black;
+    color: white;
+    border-color: black;
+}
+
+.light-mode .fa-button,
+.reset-mode .fa-button{
+    background-color: var(--primary-color);
+    color: white;
+    border-color: var(--primary-color);
+}
+
+/*Añadir un estilo degradado para resaltar el boton "Reiniciar"*/
+.reset-mode .fa-button{
+    background: linear-gradient(to right, var(--primary-color), white);
+    color: black;
+}
