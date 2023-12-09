@@ -1,0 +1,73 @@
+body{
+    background-color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    background-color: mediumturquoise;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0  10px cyan;
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+h1{
+    text-align: center;
+    color: #333;
+}
+
+form{
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+label{
+    display: block;
+    margin-bottom: 8px;
+    color: black;
+}
+
+input{
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button{
+    background-color: green;
+    color: aliceblue;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover{
+    background-color: #45a045;
+    transition: 0.5s;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td{
+    border: 1px solid black;
+}
+
+th, td{
+    padding: 12px;
+    text-align: left;
+}
+
+th{
+    background-color: whitesmoke;
+}
